@@ -1,0 +1,20 @@
+cat > Pets.txt
+Вводим "собаки, кошки, хомяки" сохраняем файл
+cat > PackAnimals.txt
+Вводим "лошади, верблюды, ослы" сохраняем файл.
+cat Pets.txt PackAnimals.txt > HumanFriends.txt
+cat HumanFriends.txt
+mv HumanFriends.txt HumanFriends.txt
+mkdir MyFriends
+mv HumanFriends.txt MyFriends/
+
+
+sudo apt-get update
+sudo apt-get install software-properties-common
+sudo add-apt-repository 'deb http://repo.mysql.com/apt/ubuntu/ focal mysql-8.0'
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 8C718D3B5072E1F5
+sudo apt-get update
+sudo apt-get install mysql-server
+sudo dpkg -i package_name.deb
+sudo dpkg -r package_name
+
